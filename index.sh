@@ -1,3 +1,4 @@
+#!/bin/bash
 read -s -p "Enter Terminal password:" password
 echo
 sed "s/admin/$password/g" terminallock.sh >> TerminalLock
