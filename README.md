@@ -9,4 +9,5 @@ chmod +x index.sh
 ./index.sh
 
 cd ..
+
 ./terminallock.sh
