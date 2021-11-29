@@ -8,4 +8,6 @@ chmod +x index.sh
 
 ./index.sh
 
+cd ../
+
 
