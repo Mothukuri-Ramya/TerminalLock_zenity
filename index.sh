@@ -48,5 +48,6 @@ sudo rm terminallock.sh
 sudo chmod +x TerminalLock
 sudo mv TerminalLock /usr/bin/
 sudo echo TerminalLock >> $HOME/.bashrc
-cd
+cd 
 sudo rm -r Terminallock_zenity
+cd ..
