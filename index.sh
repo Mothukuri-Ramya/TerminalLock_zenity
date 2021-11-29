@@ -41,7 +41,7 @@ else
 echo "check your internet connection"
 fi
 fi
-password=$(zenity --password --title="Login")
+password=$(zenity --password --title="Set your Password")
 echo
 sed "s/ramya/`md5sum <<< $password`/g" terminallock.sh > TerminalLock
 sudo rm terminallock.sh
